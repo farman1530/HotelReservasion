@@ -18,8 +18,7 @@ const UserLogin = () => {
   // Handle form submission for login
   const handleLoginSubmit = async (e) => {
     if(username==="Guest" && password==="Guest"){
-      login({username:"Guest"}); // Use the login function from context
-      window.location.href = 'http://localhost:3000';
+      login({username:"Guest"});
     }
     e.preventDefault();
     if (!username || !password) {
