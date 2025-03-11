@@ -1,0 +1,94 @@
+.view-hotel-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .hotel-layout {
+    display: flex;
+    width: 100%;
+  }
+  
+  .hotel-image-container {
+    width: 50%; /* Half of the screen */
+  }
+  
+  .hotel-image {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .hotel-details {
+    width: 50%; /* Half of the screen */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .hotel-title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .hotel-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star-rating {
+    color: gold; /* Star color */
+  }
+  
+  .booking-section {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .booking-controls select,
+  .booking-controls input {
+    width: 100%;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-check-availability {
+    background-color: #007bff; /* Blue */
+    color: white;
+  }
+  
+  .btn-book-room {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  .review-section {
+    margin-top: 20px;
+  }
+  
+  .review-section textarea {
+    width: 100%;
+  }
+  
+  .no-reviews {
+    color: #777; /* Gray color for no reviews */
+  }
+  
